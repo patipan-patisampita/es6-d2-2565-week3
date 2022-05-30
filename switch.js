@@ -1,4 +1,4 @@
-var day = 5
+var day = 7
 switch(day){
     case 0:{
         console.log("Sunday")
@@ -33,5 +33,9 @@ switch(day){
     case 6:{
         console.log("Saturday")
         break
+    }
+    
+    default:{
+        console.log("ERROR")
     }
 }
